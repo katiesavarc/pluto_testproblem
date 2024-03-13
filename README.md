@@ -22,14 +22,14 @@ copy the pre-made definitions files into the correct file
 `cp definitions_01.h definitions.h`
 `cp pluto_01.ini pluto.ini`
 
-CHANGES TO MAKE:
 
-**in pluto.ini:**
+
+**CHANGES to make in pluto.ini:**
 
 - multiple files
-- add a output dir
+- add an output dir
 
-now look at the files and change:
+now we will setup, compile and run the code:
 
 `python $PLUTO_DIR/setup.py`
 
@@ -48,3 +48,8 @@ now look at the files and change:
 if you want to run more test problems, there is more info on them here: 
 
 [PLUTO Test Problems: File List](http://plutocode.ph.unito.it/Doxygen/Test_Problems/files.html)
+
+
+and here is the actual documentation (to be consumed in small bites, not large meals):
+
+[PLUTO documentation](http://plutocode.ph.unito.it/userguide.pdf)
